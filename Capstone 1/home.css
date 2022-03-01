@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:  2vw;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+
+a:hover{
+
+	background-color: yellowgreen;
+}
+
+
+img:hover{
+
+	opacity:  0.8;
+	height: auto;
+	width: auto;
+}
+
+h1{
+
+	font-size: 5vw;
+}
+
+h3{
+
+	font-size: 4vw;
+}
+
+
+
+p{
+	font-size: 2vw;
+}
+
+#banner{
+	background-image: url(https://cdn4.vectorstock.com/i/1000x1000/78/13/simple-color-abstract-background-vector-6407813.jpg);
+	
+	background-size: cover; 
+	/*stretches the image to cover the whole element*/
+
+	background-position: center;
+	/* used to select a part of the image that will be used for the cover*/
+}
+
+.fab{
+
+	font-size: : 5rem;
+	height: 5px;
+	color: whitesmoke;
+}

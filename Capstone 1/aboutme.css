@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:  2vw;
+}
+
+html,body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+a:hover{
+
+	background-color: yellowgreen;
+}
+
+#cover{
+	background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_939837832_386488.jpg);
+	
+	background-size: cover; 
+	/*stretches the image to cover the whole element*/
+
+	background-position: center;
+	/* used to select a part of the image that will be used for the cover*/
+}
+
+p, h2, h3, h5 {
+
+	color: red;
+}
