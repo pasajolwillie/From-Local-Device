@@ -2,62 +2,63 @@
 	margin: 0;
 	padding: 0;
 
-	font-family: 'Merriweather Sans', sans-serif;
-	font-size:  2vw;
+	font-family: 'Lobster', cursive;
 }
 
 html,body
 {
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	padding: 0px;
 	overflow-x: hidden;
 }
 
+header{
+	display: flex;
+	justify-content: space-between;
+	align-content: flex-start;
+	padding: 5px 3%;
+}
 
 a:hover{
 
 	background-color: yellowgreen;
 }
 
+a{
+
+	font-size: 25px;
+}
 
 img:hover{
 
 	opacity:  0.8;
-	height: auto;
-	width: auto;
 }
 
-h1{
+h1,h2,h3,h4,h5,p{
 
-	font-size: 5vw;
+	
+	color: salmon;
 }
 
-h3{
-
-	font-size: 4vw;
-}
-
-
-
-p{
-	font-size: 2vw;
-}
 
 #banner{
-	background-image: url(https://cdn4.vectorstock.com/i/1000x1000/78/13/simple-color-abstract-background-vector-6407813.jpg);
+	background-image: url(https://wallpaperaccess.com/full/3903487.jpg);
 	
 	background-size: cover; 
 	/*stretches the image to cover the whole element*/
 
 	background-position: center;
 	/* used to select a part of the image that will be used for the cover*/
+
+	opacity: 95%;
+
 }
 
 .fab{
 
-	font-size: : 5rem;
-	height: 5px;
-	color: whitesmoke;
+	font-size: : 3rem;
+	height: 2px;
+	color: salmon;
+	text-align: center;
+
 }

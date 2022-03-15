@@ -11,14 +11,17 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
 	<script src="https://kit.fontawesome.com/860f7f28e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
+   <header class="bg-dark">
+   	<a class="navbar-brand bg-dark" href="./index.html">
+   	 <img src="./Images/whale3.png" style="width: 40px" id="nav-logo"></a>
 
-	<nav class=" bg-dark navbar navbar-expand-lg navbar-dark">			
-		<div class="container-fluid d-flex flex-row flex-wrap">
+	<nav class=" bg-dark navbar navbar-expand-lg navbar-dark ml-auto"  id="top" >		
+		<!--<div class="container-fluid d-flex flex-row flex-wrap">-->
   		  <button class="navbar-toggler ml-auto border-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -28,58 +31,199 @@
 		        <a class="nav-link text-white" href="./index.html">Home</a>
 		     </li>
 		     <li class="nav-item">
-		        <a class="nav-link text-white" href="./aboutme.html" target="_blank">About Me</a>
+		        <a class="nav-link text-white" href="#about">About</a>
 		     </li>
 			 <li class="nav-item">
-		        <a class="nav-link text-white" href="./gallery.html" target="_blank">Gallery</a>
+		        <a class="nav-link text-white" href="#gallery">Gallery</a>
 		     </li>
 			 <li class="nav-item">
-		        <a class="nav-link text-white" href="./contact.html" target="_blank">Contact Us</a>
+		        <a class="nav-link text-white" href="#contact">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
-		</div>
+		<!--</div>-->
 	</nav>
+   </header>
 	<!-- end of navbar -->
 
-	<div class="container-fluid pt-4">
-			<div class="d-flex jumbotron row justify-content-center my-2 flex-row align-items-center text-white" id="banner">
-				<div class="col-6 col-md-6 col-lg-6 text-right">
-					<img src="https://static.wikia.nocookie.net/mariokart/images/2/2d/Shyguy.png" class="img-fluid rounded border border border-danger align-center  my-3" style="width: 70%; height: 90%;">
-					
-				</div>
-				<div class="col-6 col-md-6 col-lg-6 text-left">
+	<div class="container-fluid my-0 px-0" >
+			<div class="d-flex jumbotron row justify-content-center flex-column align-items-center text-white my-0" id="banner">
+				<div class="col-8 col-md-4 col-lg-4 text-center">
+			<!-- <div class="d-flex row jumbotron justify-content-center my-3 flex-column align-items-center text-white" id="banner">
+				<div class="col-10 col-md-2"> -->
+					<h1 class="my-2 text-white">Hello, I'm</h1>
 					<h1 class="my-2">Willie Pasajol</h1>
-					<div class="d-flex flex-row flex-wrap mb-2 ">
+				</div>	
+				<div class="col-8 col-md-4 col-lg-3 text-center">
+					<img src="./Images/2x2.png" class="img-fluid rounded-border align-center" >
+				</div>
+
+					<h2 class="my-2 mb-3 text-center">A full-stack developer - providing web development and system applications.</h2>	
+
+
+					<a href="#contact" class="rounded-pill btn btn-light p-1 border border-danger"><h2>Let's talk</h2></a>
+
+						<div class="container-fluid row justify-content-center mt-2 " id="content">
+						<!-- <div class="container-fluid my-4 border border-primary justify-content-center align-items-center"> -->
+							
+							<div class="col-12 col-md-6 col-lg-5 text-center border border-primary">
+									<h2 class="text-center py-2" id="about">"About Me"</h2>
+
+									<h4 class="text-center mb-3"> I am a simple man. A dog-lover and a nature-lover. Enthusiastic and at the same time, emphatic. I am originally a Registered Electrical Engineer who had gone to develop a curiuosity and vision to coding. I find it as new ground of adventure for developing my analytical skills, attention to details and building a vision from your mind to virtual reality. I aim for quality work and client satisfaction for web development and software application needs.</h4>
+
+								 <div class="m-4 p-2">
+										<h2 class="text-center"> "My Expertise" </h2>
+
+											<h4 class="text-center mb-2"> These are my bulding structures for my services. Please see my foundation:  </h4>
+								</div>
+
+								<div class="d-flex flex-row flex-wrap justify-content-center align-items-center mb-2 bg-secondary" id="skills" style="opacity: 95%;">
+
+												<img src="./images/mongodb.png" style="width: 120px;"  class="p-2">
+												<img src="./images/nodejs.png" style="width: 120px;"  class="p-2">
+												<img src="./images/expressjs.png" style="width: 120px;"  class="p-2">
+												<img src="./images/react.png" style="width: 120px;"  class="p-2">
+												<img src="./images/heroku.png" style="width: 120px;"  class="p-2">
+												<img src="./images/git.png" style="width: 120px;"  class="p-2">
+												<img src="./images/sublime.png" style="width: 120px;"  class="p-2">
+												<img src="./images/postman.png" style="width: 120px;"  class="p-2">
+												<img src="./images/gitlab.png" style="width: 120px;"  class="p-2">
+								</div>
+
+							</div>
+
+
+
+							<div class="col-12 col-md-6 col-lg-7 text-center border border-primary">
+									<h2 class="text-center py-2" id="gallery">"My Gallery"</h2>
+										<div class="container-fluid my-2 p-2">
+											<div class="row d-flex flex-row flex-wrap justify-content-center align-items-center mx-auto mb-4">
+														<div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" 	data-interval="false">
+															<h3 class="text-center py-2" style="text-decoration: underline;">Existing Projects</h3>
+															  <div class="carousel-inner text-center">
+															    <div class="carousel-item active">
+															      <img src="./Images/1.jpg" class="img-fluid border border-success" style="width: 80%;">
+															    </div>
+															    <div class="carousel-item">
+															      <img src="./Images/2.jpg" class="img-fluid border border-success" style="width: 80%;">
+															    </div>
+															    <div class="carousel-item">
+															      <img src="./Images/3.jpg" class="img-fluid border border-success" style="width: 70%;">
+															    </div>
+															  </div>
+															  <button class="carousel-control-prev" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="prev">
+															    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+															    <span class="sr-only">Previous</span>
+															  </button>
+															  <button class="carousel-control-next" type="button" data-target="#carouselExampleControlsNoTouching" data-slide="next">
+															    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+															    <span class="sr-only">Next</span>
+															  </button>
+														</div>
+															
+											</div>
+										
+
+											<div class="d-flex flex-row flex-wrap justify-content-center align-items-center mx-auto">
+												<h3 class="text-center py-2" style="text-decoration: underline;">Sample Projects</h3>
+												<div class="col-12 col-md-12  col-lg-12 text-center my-2 mb-2">
+													<img src="./Images/11.jpg" class="img-fluid rounded-corner border border-success align-center my-1" style="width: 90%;">
+												</div>
+																				
+
+												<div class="col-12 col-md-12 col-lg-12 text-center mx-auto my-2">
+													<img src="./Images/13.jpg" class="img-fluid rounded-corner border border-success align-center  my-1" style="width: 90%;">
+												</div>
+												
+											</div>	
+													
+									</div>
+
+							</div>
+
+
+							<div class="text-center mt-4">
+								<a href="#top" class="text-white">Back to Top</a>
+							</div>
+
+						</div>
+
+
+
+					
+
+						<div class="container-fluid my-4 justify-content-center align-items-center mt-4">
+							<h2 class="text-center mt-3 mb-4" id="contact">Contact Us!</h2>
+							<div class="row mx-1">
+								<div class="col-12 col-md-6 order-1 order-md-1 justify-content-center">
+										<form id="formInput">
+											  <div class="nameinput">
+												  <label for="name">Full Name:</label>
+												  <input type="text" class="form-control" id="name" required autocomplete>
+											  </div>
+
+											  <div class="form-group my-2" >
+											    <label for="exampleFormControlInput1">Email:</label>
+											    <input type="email" class="form-control" id="exampleFormControlInput1" required autocomplete>
+											  </div>
+											 
+											 <div class="form-group my-2" >
+											    <label for="exampleFormControlInput1">Contact Number:</label>
+											    <input type="number" class="form-control" id="exampleFormControlInput1" required autocomplete>
+											 </div>
+										</form>
+								</div>
+
+								<div class="col-12 col-md-6 order-2 order-md-2 justify-content-center">
+									<form>
+										  <div class="form-group mx-auto">
+										     <label for="exampleFormControlTextarea1">Message:</label>
+										    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+										  </div>
+									</form>
+								</div>
+
+							</div>
+
+							<div id="button" class="text-center mt-4 mb-2">
+								 <button type="submit" value="Submit" onclick="alert ('Your contact has been sent!')" class="btn btn-outline-light" style="border-radius: 10px; width: 30%;" >Submit</button>
+							</div>
+
+						</div>
+
+						<div class="col-10 col-md-10 col-lg-8 text-center mt-2 mb-2">
+								<h4 class="my-1 mx-auto">“Sitting still and wishing, Makes no person great;</h4>
+								<h4 class="my-1 mx-auto mb-3">The good Lord sends the fishing, But you must dig the bait!”</h4>
+						</div>
+
+
+						<div class="text-center mt-2">
+							<a href="#top" class="text-white">Back to Top</a>
+						</div>
+			<!--</div>-->
+			
+	</div>
+
+	
+
+	
+
+
+		<footer class="text-center bg-dark text-white" >
+	    	<h6> &copy; All Rights Reserved 2022 </h6>
+	    	<div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
 						<a href="https://facebook.com" target="_blank"class="mx-3">
 						<i class="fab fa-brands fa-facebook"></i>
-						</a>
-
-						<a href="https://gitlab.com" target="_blank" class="mx-3">
-						<i class="fab fa-brands fa-gitlab"></i>
 						</a>
 
 						<a href="https://linkedin.com" target="_blank"  class="mx-3">
 						<i class="fab fa-brands fa-linkedin"></i>
 						</a>
 
-						<a href="https://linkedin.com" target="_blank"  class="mx-3">
+						<a href="https://www.instagram.com/" target="_blank"  class="mx-3">
 						<i class="fab fa-brands fa-instagram"></i>
 						</a>
 					</div>
-					<h3 class="my-0">Online Portfolio</h3>	
-				</div>		
-			</div>
-	</div>
-
-
-	<div class="col-12 col-md-12 col-lg-12 text-center my-2">
-			<p class="my-1 mx-auto">“Sitting still and wishing, Makes no person great;</p>
-			<p class="my-1 mx-auto">The good Lord sends the fishing, But you must dig the bait!”</p>
-	</div>
-
-		<footer class="text-center bg-dark p-0 text-white my-1" >
-	    	<h6  class="p-2"> &copy; All Rights Reserved 2022 </h6>
 	 	</footer>
 
 
